@@ -16,10 +16,12 @@ A través de análisis de series temporales y modelos econométricos, se busca i
 
 
 01_data/
+
 ├── raw/        # Datos originales (Excel)
 ├── processed/  # Datos limpios y transformados
 
 02_scripts/
+
 ├── 01_clean_data.R
 ├── 02_processing.R
 ├── 03_analysis.R
@@ -28,6 +30,7 @@ A través de análisis de series temporales y modelos econométricos, se busca i
 ├── run_all.R
 
 03_output/
+
 └── graficos/
     ├── descomposicion_stl.png
     ├── gap.png
@@ -35,7 +38,9 @@ A través de análisis de series temporales y modelos econométricos, se busca i
     ├── precio_vs_cmo.png
 
 ⚙️ Metodología
+
 🔹 1. Preparación de datos
+
 Limpieza del dataset original del MEM
 Tratamiento de valores faltantes
 Construcción de una serie temporal consistente
@@ -59,6 +64,7 @@ Se utilizaron y construyeron las siguientes variables clave:
 </p>
 
 Hallazgos:
+
 * Fuerte componente estacional (asociado a ciclos de demanda)
 * Cambios estructurales en el tiempo
 
@@ -82,6 +88,7 @@ p-valor ≈ 0.12
 → No se rechaza la hipótesis de estabilidad estructural
 
 📈 Visualizaciones clave
+
 ### Evolución del Gap
 
 <p align="center">
@@ -95,12 +102,14 @@ p-valor ≈ 0.12
 </p>
 
 📌 Principales conclusiones
+
 * El precio de la energía no refleja de manera consistente el costo marginal
 * Existen desvíos significativos y variables en el tiempo
 * La demanda tiene un rol relevante en la dinámica del sistema
 * Los cambios regulatorios analizados no muestran impacto estadísticamente robusto
 
 🧠 Interpretación
+
 Los resultados sugieren la presencia de:
 
 * Distorsiones regulatorias
@@ -114,6 +123,7 @@ Para ejecutar todo el pipeline:
 source("02_scripts/run_all.R")
 
 🛠️ Herramientas utilizadas
+
 R
 tidyverse
 ggplot2
