@@ -18,32 +18,45 @@ A través de análisis de series temporales y modelos econométricos, se busca i
 01_data/
 
 ├── raw/        # Datos originales (Excel)
+
 ├── processed/  # Datos limpios y transformados
 
 02_scripts/
 
 ├── 01_clean_data.R
+
 ├── 02_processing.R
+
+
 ├── 03_analysis.R
+
 ├── 04_modeling.R
+
 ├── 05_visualizations.R
+
 ├── run_all.R
 
 03_output/
 
 └── graficos/
+
     ├── descomposicion_stl.png
+    
     ├── gap.png
+    
     ├── gap_resumen.png
+    
     ├── precio_vs_cmo.png
 
 ⚙️ Metodología
+
 
 🔹 1. Preparación de datos
 
 Limpieza del dataset original del MEM
 Tratamiento de valores faltantes
 Construcción de una serie temporal consistente
+
 
 🔹 2. Ingeniería de variables
 
