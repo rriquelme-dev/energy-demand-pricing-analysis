@@ -1,0 +1,14 @@
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+.Rproj.user/
+*.Rproj
+
+# data pesada
+data/raw/*.xlsx
+
+# outputs temporales
+outputs/tablas/*.csv
