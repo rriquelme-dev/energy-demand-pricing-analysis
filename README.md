@@ -40,13 +40,13 @@ A través de análisis de series temporales y modelos econométricos, se busca i
 
 └── graficos/
 
-    ├── descomposicion_stl.png
+            ├── descomposicion_stl.png
     
-    ├── gap.png
+            ├── gap.png
     
-    ├── gap_resumen.png
+            ├── gap_resumen.png
     
-    ├── precio_vs_cmo.png
+            ├── precio_vs_cmo.png
 
 
 
