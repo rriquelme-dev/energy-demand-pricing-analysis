@@ -53,11 +53,13 @@ A través de análisis de series temporales y modelos econométricos, se busca i
 ⚙️ Metodología
 
 
+
 🔹 1. Preparación de datos
 
 Limpieza del dataset original del MEM
 Tratamiento de valores faltantes
 Construcción de una serie temporal consistente
+
 
 
 🔹 2. Ingeniería de variables
@@ -69,6 +71,7 @@ Se utilizaron y construyeron las siguientes variables clave:
 * Costo marginal (CMO)
 * Gap = Precio – Costo
 * Variable dummy indicadora de reforma
+
 
 🔹 3. Análisis de series temporales
 
@@ -83,6 +86,7 @@ Hallazgos:
 * Fuerte componente estacional (asociado a ciclos de demanda)
 * Cambios estructurales en el tiempo
 
+
 🔹 4. Modelado econométrico
 
 Se estimó el siguiente modelo:
@@ -94,6 +98,7 @@ Resultados principales:
 * La demanda tiene un efecto significativo sobre el gap
 * La variable de reforma no resulta estadísticamente significativa
 * No se detecta un cambio estructural fuerte
+
 
 🔹 5. Test de cambio estructural
 
@@ -131,11 +136,13 @@ Los resultados sugieren la presencia de:
 * Esquemas de subsidios
 * Mecanismos de fijación de precios que no responden plenamente a señales de mercado
 
+
 🚀 Reproducibilidad
 
 Para ejecutar todo el pipeline:
 
 source("02_scripts/run_all.R")
+
 
 🛠️ Herramientas utilizadas
 
