@@ -48,6 +48,8 @@ A través de análisis de series temporales y modelos econométricos, se busca i
     
     ├── precio_vs_cmo.png
 
+
+
 ⚙️ Metodología
 
 
