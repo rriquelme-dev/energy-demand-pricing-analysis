@@ -2,7 +2,7 @@
 
 ## 📊 Descripción
 
-Este proyecto analiza la relación entre la demanda eléctrica, el costo marginal y el precio de la energía en el Mercado Eléctrico Mayorista (MEM) de Argentina.
+Este proyecto analiza la relación entre la demanda eléctrica, el costo marginal y el precio de la energía en el Mercado Eléctrico Mayorista (MEM) de Argentina en el período 2018 a Febrero 2026.
 
 El objetivo central es responder una pregunta clave:
 
