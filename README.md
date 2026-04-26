@@ -108,6 +108,7 @@ p-valor ≈ 0.12
 
 
 
+
 📈 Visualizaciones clave
 
 ### Evolución del Gap
