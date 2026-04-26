@@ -4,11 +4,11 @@
 
 Este proyecto analiza la relación entre la demanda eléctrica, el costo marginal y el precio de la energía en el Mercado Eléctrico Mayorista (MEM) de Argentina en el período 2018 a Febrero 2026.
 
+A partir de datos mensuales, se construye un indicador de "gap" entre precio y costo, y se evalúa su comportamiento en el tiempo mediante herramientas de series temporales y modelos econométricos.
+
 El objetivo central es responder una pregunta clave:
 
 > **¿El precio de la energía refleja realmente su costo?**
-
-A través de análisis de series temporales y modelos econométricos, se busca identificar posibles distorsiones en la formación de precios.
 
 ---
 
@@ -51,7 +51,6 @@ A través de análisis de series temporales y modelos econométricos, se busca i
 
 
 ⚙️ Metodología
-
 
 
 🔹 1. Preparación de datos
@@ -107,6 +106,8 @@ Test de Chow:
 p-valor ≈ 0.12
 → No se rechaza la hipótesis de estabilidad estructural
 
+
+
 📈 Visualizaciones clave
 
 ### Evolución del Gap
@@ -121,27 +122,31 @@ p-valor ≈ 0.12
   <img src="03_output/graficos/precio_vs_cmo.png" width="700">
 </p>
 
-📌 Principales conclusiones
 
-* El precio de la energía no refleja de manera consistente el costo marginal
-* Existen desvíos significativos y variables en el tiempo
-* La demanda tiene un rol relevante en la dinámica del sistema
-* Los cambios regulatorios analizados no muestran impacto estadísticamente robusto
 
-🧠 Interpretación
+📌 Key Findings
 
-Los resultados sugieren la presencia de:
+- El precio de la energía no sigue de forma consistente al costo marginal
+- La demanda tiene un rol relevante en la dinámica del sistema
+- No se detecta evidencia estadística fuerte de un cambio estructural tras la reforma
+- Existe una dinámica de desacople parcial entre señales económicas y precios finales
 
-* Distorsiones regulatorias
-* Esquemas de subsidios
-* Mecanismos de fijación de precios que no responden plenamente a señales de mercado
+
+
+🧠 Conclusión
+
+- Los resultados sugieren que el precio de la energía no está completamente alineado con su costo marginal.
+- Si bien la demanda influye en el gap precio-costo, no se observa evidencia robusta de un cambio estructural tras la reforma analizada.
+- Esto podría indicar la presencia de mecanismos de fijación de precios que no responden plenamente a señales de mercado.
+- El análisis muestra cómo herramientas econométricas simples pueden aportar evidencia útil para entender dinámicas complejas del mercado energético.
 
 
 🚀 Reproducibilidad
 
 Para ejecutar todo el pipeline:
 
-source("02_scripts/run_all.R")
+   source("02_scripts/run_all.R")
+
 
 
 🛠️ Herramientas utilizadas
