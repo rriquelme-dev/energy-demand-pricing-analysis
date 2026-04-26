@@ -153,7 +153,11 @@ Para ejecutar todo el pipeline:
 🛠️ Herramientas utilizadas
 
 R
+
 tidyverse
+
 ggplot2
+
 forecast
+
 strucchange
